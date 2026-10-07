@@ -1,8 +1,13 @@
+import "./App.css";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <div>
-      <h1>CafeFinder</h1>
-      <p>Find your perfect cafe.</p>
+      <Navbar />
+
+      <h1>Find Your Perfect Cafe</h1>
+      <p>Discover cafes around you.</p>
     </div>
   );
 }
